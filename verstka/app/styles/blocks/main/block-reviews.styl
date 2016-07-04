@@ -1,0 +1,103 @@
+.block-reviews
+	background #434647
+	text-align center
+	padding 40px 0
+	h2
+		color #fff
+	&__logos
+		display flex
+		flex-direction row
+		justify-content center
+		align-items center
+		background rgba(255,255,255,0.07)
+		padding 10px 0
+		a
+			display block
+			margin 0 25px
+			cursor pointer
+			.logo-hover
+				display none
+			&:hover
+				.logo
+					display none
+				.logo-hover
+					display block
+	&__slider
+		max-width 985px
+		width 100%
+		margin 0 auto
+		position relative
+		&__arrows
+			display block
+			width 41px
+			height 41px
+			background-repeat no-repeat
+			background-size cover
+			position absolute
+			top 130px
+			cursor pointer
+			&.left
+				background-image url("../images/main/reviews/arrow-left.png")
+				left 0
+			&.right
+				background-image url("../images/main/reviews/arrow-right.png")
+				right 0
+		&__body
+			max-width 790px
+			margin 0 auto
+			position relative
+			overflow hidden
+			> div
+				width 10000px
+				display flex
+				flex-direction row
+				justify-content flex-start
+				font-size 0
+				overflow hidden
+			&__item
+				max-width 790px
+				margin 30px 0
+				&__img
+					position relative
+					border 4px solid #fff
+					width 78px
+					height 78px
+					border-radius 40px
+					overflow hidden
+					margin 0 auto
+					img
+						width 100%
+				h4
+					font-size 16px
+					color #75c7b1
+					line-height 1.3
+					margin 10px 0
+					span
+						display block
+						color #b8b8b8
+						font-size 13px
+				p
+					color #fff
+					font-size 14px
+					position relative
+					line-height 2
+					&:before,
+					&:after
+						content ''
+						display block
+						position absolute
+						background-repeat no-repeat
+						background-size cover
+						width 22px
+						height 16px
+					&:before
+						background-image url("../images/main/reviews/quotes.png")
+						top -20px
+						left 0
+					&:after
+						background-image url("../images/main/reviews/quotes2.png")
+						bottom -20px
+						right 0
+					a
+						color #f3bc33
+						margin-left 5px

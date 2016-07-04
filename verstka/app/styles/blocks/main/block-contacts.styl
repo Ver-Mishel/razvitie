@@ -1,0 +1,42 @@
+.block-contacts
+	display flex
+	flex-flow row wrap
+	&__part
+		width 50%
+		position relative
+	&__map
+		img
+			width 100%
+	&__info
+		text-align center
+		padding 40px 65px
+	.feedback
+		margin 30px auto
+
+.contact-phone
+	font-size 24px
+	color #75c7b1
+	display block
+	line-height 2
+.contact-email
+	font-weight 700
+	color #6e6e6e
+	font-size 14px
+	display block
+	line-height 2
+	margin-bottom 5px
+.contact-adress
+	color #6e6e6e
+	font-size 14px
+	line-height 1.3
+	span
+		color #f3bc34
+		display block
+		&:before
+			content ''
+			width 12px
+			height 9px
+			background-image: url("../images/main/map/metro.png")
+			background-repeat no-repeat
+			display inline-block
+			margin-right 10px

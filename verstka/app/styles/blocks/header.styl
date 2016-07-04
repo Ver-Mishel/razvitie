@@ -1,0 +1,86 @@
+header
+	background-size cover
+	background-position center
+	height 643px
+	position relative
+	h1
+		font-size 60px
+		font-weight 600
+		text-transform uppercase
+		text-align center
+		color #fff
+		margin-top 9%
+		p
+			font-size 22px
+			font-weight 400
+			text-transform none
+			color #dbdbdb
+			line-height 2
+.header-top-block
+	padding 15px 0
+	.wide-content
+		display flex
+		flex-flow row wrap
+		justify-content space-between
+		align-items center
+.logo
+	display flex
+	flex-flow row wrap
+	align-items center
+	div
+		margin-left 10px
+		p
+			font-size 20px
+			color #fff
+		a
+			color #f3bc33
+			display block
+			font-size 14px
+			font-weight 700
+			text-decoration underline
+.search
+	position relative
+	width 290px
+	height 35px
+	input
+		width 100%
+		height 100%
+		background none
+		border 1px solid #b4b5b3
+		border-radius 20px
+		position relative
+		padding 0 35px 0 20px
+		color #fff
+	&:after
+		content ''
+		display block
+		position absolute
+		right 15px
+		top 50%
+		margin-top -7px
+		background url("../images/main/icon-search.png") no-repeat
+		width 15px
+		height 15px
+
+.navigation-block
+	position absolute
+	bottom 0
+	left 0
+	width 100%
+	background rgba(0,0,0,0.5)
+	ul
+		display flex
+		flex-flow row wrap
+		justify-content center
+		font-size 0
+		li
+			&:last-child
+				a
+					border-right none
+	a
+		font-size 14px
+		color #fefefe
+		line-height 70px
+		padding 10px 33px
+		border-right 1px solid #545454
+

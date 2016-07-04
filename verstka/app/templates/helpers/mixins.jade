@@ -1,0 +1,30 @@
+include mixins/scripts
+include mixins/tree
+include mixins/icon
+
+mixin block-services-item(icNum, headText, nameCl)
+	.block-services__body__item
+		img(src="assets/images/main/icon-services/#{icNum}.png")
+		p(class="#{nameCl}")= headText
+		.block-services__body__item__hidden-block
+			img(src="assets/images/main/1icon-services/#{icNum}.png")
+			p(class="#{nameCl}")= headText
+			ul
+				li
+					a(href="/") Подразел номер один
+				li
+					a(href="/") Подразел номер 2
+				li
+					a(href="/") Подразел №3
+
+
+mixin review-logos(logName, logNameHover)
+	a
+		img(src="assets/images/main/logos/#{logName}.png" class="logo")
+		img(src="assets/images/main/logos/#{logNameHover}.png" class="logo-hover")
+
+
+
+
+
+

@@ -1,0 +1,59 @@
+.block-complecs
+	text-align center
+	padding 40px 0
+	&__body
+		display flex
+		flex-flow row wrap
+		justify-content center
+	&__item
+		margin 0 20px
+		&:hover
+			transform scale(1.1)
+			transition 0.5s
+		&.red-item
+			background #ec4b52
+			.icon-shop
+				background-image url("../images/main/complecs/icon-shop-red.png")
+			.icon-mail
+				background-image url("../images/main/complecs/icon-mail-red.png")
+			.icon-arrow
+				background-image url("../images/main/complecs/icon-arrow-red.png")
+		&.bluegreen-item
+			background #75c7b1
+			.icon-gift
+				background-image url("../images/main/complecs/icon-gift-green.png")
+			.icon-arrow
+				background-image url("../images/main/complecs/icon-arrow-green.png")
+		&.yellow-item
+			background #f3bc33
+			.icon-yandex
+				background-image url("../images/main/complecs/icon-yandex-yellow.png")
+			.icon-window
+				background-image url("../images/main/complecs/icon-window-yellow.png")
+		&__info
+			padding 15px 10px
+			color #fff
+			h3
+				font-size 22px
+				line-height 2
+			li
+				font-size 14px
+				list-style-type square
+				list-style-position inside
+				line-height 1.2
+				margin-bottom 5px
+			&__icons
+				display flex
+				flex-flow row wrap
+				justify-content center
+				margin 20px 0 10px
+				a
+					display block
+					width 41px
+					height 41px
+					background-repeat no-repeat
+					background-size cover
+					margin 0 7px
+					&:hover
+						transform rotate(360deg)
+						transition 0.5s

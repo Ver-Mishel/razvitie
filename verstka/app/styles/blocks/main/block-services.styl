@@ -1,0 +1,46 @@
+.block-services
+	text-align center
+	background #ecf0f1
+	padding 40px 0
+	&__body
+		display flex
+		flex-flow row wrap
+		justify-content center
+		margin 30px 0
+		&__item
+			width 200px
+			margin 0px 40px
+			padding 20px 10px
+			position relative
+			p
+				line-height 1.2
+			&:hover
+				.block-services__body__item__hidden-block
+					opacity 1
+					z-index 1
+					transition 0.5s
+			&__hidden-block
+				display block
+				opacity 0
+				position absolute
+				top 0
+				left 0
+				width 100%
+				background #fff
+				box-shadow 2px 2px 4px rgba(0,0,0,0.2)
+				padding 20px 10px
+				p
+					line-height 1.2
+					margin-bottom 10px
+				ul
+					li
+						margin 5px 0
+						list-style-type square
+						list-style-position inside
+						color #6e6e6e
+						a
+							color #6e6e6e
+							text-decoration underline
+							&:hover
+								color #f3bc33
+								text-decoration none
