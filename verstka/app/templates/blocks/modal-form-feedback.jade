@@ -1,0 +1,11 @@
+section.modal-block
+	.modal-block__body
+		a.modal-block__body__close-btn
+		h2 Свяжитесь с нами
+		.break-line
+		form(action="" method="POST").feedback
+			input(type="text" name="name" placeholder="Ваше имя").feedback__name
+			input(type="text" name="email" placeholder="Эл. почта").feedback__email
+			input(type="text" name="phone" placeholder="Номер телефона").feedback__phone
+			textarea(name="message" placeholder="Введите текст Вашего сообщения").feedback__message
+			input(type="submit" value="Отправить").btn.btn-bluegreen
