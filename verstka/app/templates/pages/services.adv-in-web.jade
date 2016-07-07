@@ -1,0 +1,20 @@
+extends ../layouts/default
+
+block head
+	title Комплексный интернет-маркетинг
+
+block header
+	h1 Комплексный интернет-маркетинг
+
+block header-under-line
+	include ../blocks/services/header-nav-adv-in-web
+
+block content
+	include ../blocks/header
+	include ../blocks/services/bred/block-about-service
+	include ../blocks/services/adv-in-web/block-main-adv
+	include ../blocks/services/adv-in-web/block-compl-im
+	include ../blocks/main/block-complecs
+	include ../blocks/main/block-reviews
+
+	include ../blocks/main/block-contacts

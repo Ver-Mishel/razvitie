@@ -1,0 +1,23 @@
+extends ../layouts/default
+
+block head
+	title WEB-разработка
+
+block header
+	h1 WEB-разработка
+
+block header-under-line
+	include ../blocks/services/header-nav
+
+block content
+	include ../blocks/header
+	include ../blocks/services/web-dev/block-about-service
+	include ../blocks/services/web-dev/block-advantages
+	include ../blocks/services/web-dev/block-hww
+	include ../blocks/services/web-dev/block-result
+	include ../blocks/services/web-dev/block-wwd
+	include ../blocks/services/web-dev/block-our-projects
+	include ../blocks/services/web-dev/block-your-team
+	include ../blocks/main/block-reviews
+
+	include ../blocks/main/block-contacts

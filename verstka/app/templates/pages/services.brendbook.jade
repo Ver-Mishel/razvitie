@@ -1,0 +1,20 @@
+extends ../layouts/default
+
+block head
+	title Разработка брендбука
+
+block header
+	h1 Разработка брендбука
+		p Концепция, реализация и описание использования фирменного стиля для бренда
+
+block header-under-line
+	include ../blocks/services/header-nav-brendbook
+
+block content
+	include ../blocks/header
+	include ../blocks/services/brendbook/block-in-project
+	include ../blocks/services/brendbook/block-advantages
+	include ../blocks/services/brendbook/block-process
+	include ../blocks/services/brendbook/block-attention
+
+	include ../blocks/main/block-contacts
